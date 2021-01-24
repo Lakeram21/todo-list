@@ -1,0 +1,44 @@
+.form{
+ width: 300px;
+ height:fit-content;
+ display: flex;
+ flex-direction: column;
+ border-radius: 5px;
+ border: 5px solid greenyellow;
+ padding: 20px;
+
+
+
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    
+
+}
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  
+  
+}
+.buttons{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+#removeBtn{
+  background-color: red;
+
+}
+
+#addBtn, #updateBtn, #readBtn{
+
+  background-color: rgb(29, 235, 29);
+}
+.list{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+}

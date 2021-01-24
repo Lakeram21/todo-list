@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js"></script>
+    <script src="firebase.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+
+            <form class="form">
+                <label for="list_name">List Name</label><br>
+                <input type="text" name='list_name' id='list_name'><br>
+
+                <label for="items">Items</label><br>
+                <input type="text" name='items' id='items'><br>
+
+                <label for="note">Notes</label><br>
+                <input type="text" name='note' id='note'><br>
+
+                <label for="time">Time</label><br>
+                <input type="text" name='time' id='time'><br>
+
+                <div class='buttons'>
+                    <button id="addBtn" class="add">Add</button>
+                    <button id='updateBtn' class="update">Update</button>
+                    <button id="readBtn" class='read'>Read</button>
+                    <button id="removeBtn" class='read'>Remove</button>
+                </div>
+
+            </form>
+
+        </div>
+        <div>
+            <h1>Data Results</h1>
+            <section class="list">
+
+                <label for="item">Item</label><br>
+                <h1 name='item' id='item'></h1>
+
+
+
+                <label for="deadline">Time</label><br>
+                <h1 name='deadline' id='deadline'></h1>
+
+                <label for="deadline2">Note</label><br>
+                <h1 name='deadline2' id='deadline2'></h1>
+
+
+            </section>
+        </div>
+
+
+
+
+    </main>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+
+
+    <script src=app.js></script>
+</body>
+
+</html>
