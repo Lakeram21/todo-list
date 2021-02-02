@@ -4,7 +4,7 @@ My software uses the cloud database (firstore).The software is a simple task rec
 My purpose of writing this software is to help me understand how firestore database works and to evetually make this software a personl task recorder for my future school work.
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/MioQ13qsAPI)
 
 # Cloud Database
 
